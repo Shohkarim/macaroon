@@ -1,1 +1,56 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+}
+img{
+  max-width: 100%;
+}
+
+@font-face {
+  font-family: GilroyRegular;
+  src: url("./assets/fonts/GilroyRegular.ttf");
+}
+
+@font-face {
+  font-family: GilroyBold;
+  src: url("./assets/fonts/GilroyBold.ttf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: GilroyMedium;
+  src: url("./assets/fonts/GilroyMedium.ttf");
+}
+
+@font-face {
+  font-family: Gilroy ExtraBold;
+  src: url("./assets/fonts/GilroyExtrabold.ttf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Tavolga-free;
+  src: url("./assets/fonts/tavolga-free.ttf");
+}
+
+body {
+  font-family: Gilroy, sans-serif;
+}
+
+.btn {
+  padding: 22px 43px 22px 43px;
+  background-image: linear-gradient(90deg, rgb(113, 8, 30) 0%, rgb(215, 72, 92) 100%);
+  border-radius: 50px;
+  border: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family: GilroyBold, sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 1;
+  cursor: pointer;
+}
+.btn:hover{
+  box-shadow: 0 5px 9px 1px rgba(130, 19, 40, 0.5);
+  transition: 0.4s;
+}

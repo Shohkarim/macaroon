@@ -1,0 +1,151 @@
+
+
+.macaroon-choose {
+  padding: 120px 0 120px 0;
+  background-color: rgb(235, 168, 177);
+}
+
+.macaroon-choose .container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.macaroon-choose-title {
+  font-size: 45px;
+  font-family: Tavolga-free, sans-serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+
+}
+
+.macaroon-items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.macaroon-item {
+  text-align: center;
+}
+
+.macaroon-item-image {
+  transform: translate(0, 65px);
+}
+.macaroon-item:hover .macaroon-item-image img{
+  transform: scale(1.1);
+  transition: transform .6s ease;
+}
+
+.macaroon-item-box {
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 20px;
+  width: 259px;
+  height: 225px;
+}
+
+.macaroon-item-title {
+  font-weight: normal;
+  font-size: 18px;
+  font-family: Tavolga-free, sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 3;
+  text-align: center;
+  padding-top: 92px;
+
+}
+
+.macaroon-action {
+  display: flex;
+  align-items: center;
+}
+
+.macaroon-action-text {
+  font-size: 15px;
+  font-family: GilroyRegular, sans-serif;
+  color: rgb(255, 255, 255);
+  margin-left: 20px;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.macaroon-action-text span {
+  display: block;
+}
+
+.macaroon-button {
+}
+
+.btn-macaroon-choose {
+  background-image: linear-gradient(90deg, rgb(113, 8, 30) 0%, rgb(215, 72, 92) 100%);
+
+  padding: 20px 29px 20px 29px;
+  margin-left: 30px;
+  box-shadow: 0 0 0 0;
+
+}
+.btn-macaroon-choose:hover{
+  box-shadow: 0 5px 9px 1px rgba(130, 19, 40, 0.5);
+  transition: 0.4s;
+}
+
+
+@media screen and (max-width: 1167px) {
+  .macaroon-items {
+    grid-template-columns: 263px 263px;
+    grid-template-rows: 1fr  1fr;
+    justify-content: center;
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .macaroon-choose {
+    padding: 120px 0 120px 0;
+    background-color: rgb(235, 168, 177);
+  }
+
+  .macaroon-choose .container {
+    max-width: 728px;
+    margin: 0 auto;
+  }
+
+  .macaroon-items {
+    grid-template-columns: 263px 263px;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .macaroon-item {
+    display: grid;
+    align-self: center;
+  }
+}
+
+
+
+@media screen and (max-width: 602px) {
+  .macaroon-items {
+    grid-template-columns:  263px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .macaroon-choose-title {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 376px) {
+  .macaroon-choose .container {
+    max-width: 345px;
+    margin: 0 auto;
+  }
+
+  .macaroon-items {
+    grid-template-columns:  263px;
+  }
+}
+
+

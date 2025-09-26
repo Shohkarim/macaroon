@@ -1,0 +1,28 @@
+<section class="cook-macaroon" id="about">
+  <div class="container cook-macaroon-container">
+    <div class="cook-info-macaroon">
+      <div class="cook-info">
+        <h2>Мы печём для вас
+          вкуснейшие макаруны
+          уже более 10 лет</h2>
+        <div class="cook-info-text">
+          Все пироженки мы готовим только из натуральных и качественных продуктов, без консервантов,
+          ароматизаторов, красителей. Используем в приготовлении сливочное масло 82,5%, без дрожжей,
+          маргарина,
+          разрыхлителей и улучшителей муки.
+        </div>
+      </div>
+      <div class="cook-image">
+        <img src="assets/images/6.png" alt="Cook">
+      </div>
+    </div>
+    <div class="cook-descriptions">
+      <div class="desc cook-descriptions-one" *ngFor="let description of descriptions">
+        <div class="desc-order desc-order-one">{{description.id}}</div>
+        <div class="desc-title">{{description.title}}</div>
+        <div class="desc-text">{{description.text | reduceText:95}}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
