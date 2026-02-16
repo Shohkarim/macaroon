@@ -313,11 +313,11 @@
 
   .desc-title {
     text-align: center;
-    line-height: 2;
+    line-height: 1.5;
     font-size: 17px;
   }
   .desc-text {
-    line-height: 1;
+    line-height: 1.2;
   }
 
   .order .container {
@@ -332,7 +332,7 @@
   }
 
   .cook-descriptions {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     margin-right: 15px;
     margin-left: 15px;
     grid-auto-flow: column;

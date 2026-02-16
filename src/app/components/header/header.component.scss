@@ -122,6 +122,7 @@
   .header .menu{
     display: none;
   }
+
   .header .menu.open{
     display: block;
   }
@@ -137,11 +138,14 @@
     height: 100%;
     top: 0;
     left: 0;
-    color: #D0654AFF;
+    //color: #D0654AFF;
     background: rgba(0, 0, 0, 0.83);
     z-index: 5;
     padding-top: 120px;
     margin: 0;
+  }
+  .header .menu ul li a{
+    color: #FFFFFF;
   }
 
   .header .menu{
